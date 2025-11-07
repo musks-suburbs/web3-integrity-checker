@@ -57,3 +57,7 @@ MIT License
 
 ## Suggested Repository Name
 **web3-integrity-checker**
+---
+### 🧑‍💻 Developer Note
+Feel free to fork this repository and extend it — for example by adding batch verification,
+proxy contract detection, or integration with zk-based networks like Aztec.
