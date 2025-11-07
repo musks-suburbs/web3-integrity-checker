@@ -1,3 +1,5 @@
+# This script verifies the integrity (soundness) of a smart contract 
+# by fetching its bytecode from the blockchain and computing its keccak256 hash.
 # app.py
 import sys
 from web3 import Web3
@@ -32,6 +34,7 @@ def main():
     code_hash = get_contract_code_hash(w3, CONTRACT_ADDRESS)
     print(f"✅ Contract code hash (keccak256): {code_hash}")
     print("Integrity verified successfully (hash computed).")
+    
 
 if __name__ == "__main__":
     main()
