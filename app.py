@@ -1,5 +1,15 @@
-# This script verifies the integrity (soundness) of a smart contract 
-# by fetching its bytecode from the blockchain and computing its keccak256 hash.
+"""
+Web3 Contract Integrity Checker
+--------------------------------
+This tool connects to an Ethereum-compatible RPC node, retrieves the on-chain bytecode
+of a given contract, and computes its keccak256 hash to verify code integrity.
+
+It can be used for:
+- Deployment verification
+- CI/CD pipeline checks
+- Soundness proofs in privacy networks (Aztec, Zama, etc.)
+"""
+
 # app.py
 import sys
 from web3 import Web3
