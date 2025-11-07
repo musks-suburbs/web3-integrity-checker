@@ -57,3 +57,8 @@ MIT License
 
 ## Suggested Repository Name
 **web3-integrity-checker**
+---
+### 🔮 Future Improvements
+- CLI interface with more network support  
+- Docker image for automated integrity verification  
+- Integration with Aztec and Zama frameworks  
