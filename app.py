@@ -35,6 +35,11 @@ def get_contract_code_hash(w3, address):
     except Exception as e:
         print(f"❌ Error fetching contract code: {e}")
         sys.exit(1)
+    """
+    Fetches the contract bytecode from the blockchain 
+    and returns its keccak256 hash.
+    """
+
 
 def main():
     print("🔗 Web3 Contract Integrity Checker")
