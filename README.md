@@ -1,3 +1,4 @@
+> 🧩 This project is part of the Web3 soundness and cryptographic integrity tools collection.
 # web3-integrity-checker
 This project verifies the **integrity** and **soundness** of smart contracts deployed on Ethereum or other Web3-compatible chains.  
 It fetches the contract bytecode from the blockchain and computes its **keccak256 hash**, helping developers verify that the deployed contract matches the expected code.
